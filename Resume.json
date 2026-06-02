@@ -1,0 +1,348 @@
+[
+  {
+    "basics": {
+      "name": "Oluwaseyi Idowu",
+      "label": "Senior Fullstack & Platform Engineer",
+      "image": "",
+      "email": "idowuseyi22@gmail.com",
+      "phone": "(+234)8136899991",
+      "url": "https://github.com/idowuseyi22",
+      "summary": "Senior Fullstack & Platform Engineer with 5+ years of experience designing, building, and operating production-grade systems across health-tech, fintech, SaaS, and developer tooling. Specialized in backend architecture, distributed systems, and platform engineering with deep expertise in TypeScript/NestJS, Rust (Axum), Python/FastAPI, PostgreSQL, and Redis.\n\nLed end-to-end delivery of HIPAA-compliant health platforms, AI agent infrastructure, vector search pipelines, multi-environment CI/CD systems, and payment platforms — consistently improving reliability, reducing deployment cycles, and hardening production infrastructure.\n\nFocused on secure, scalable system design with strong operational discipline — from architecture decisions through deployment, monitoring, and incident prevention.",
+      "location": {
+        "address": "",
+        "postalCode": "200132",
+        "city": "Ibadan",
+        "countryCode": "NG",
+        "region": "Oyo State"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "oluwaseyi-idowu",
+          "url": "https://www.linkedin.com/in/oluwaseyi-idowu-sunday"
+        },
+        {
+          "network": "GitHub",
+          "username": "idowuseyi22",
+          "url": "https://github.com/idowuseyi22"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Theraptly",
+        "position": "Lead Fullstack Engineer",
+        "url": "",
+        "startDate": "2025-08-12",
+        "endDate": "",
+        "summary": "Lead engineering for Theraptly, a HIPAA-compliant health-tech platform, and its secure document processing system — owning backend architecture, frontend delivery, and infrastructure automation from design through production.",
+        "highlights": [
+          "Led architecture and delivery of a HIPAA-compliant health-tech platform, owning backend services, frontend applications, and infrastructure automation across production environments.",
+          "Designed and built a secure document analysis service with custom middleware for PII detection, request threat analysis, and malicious payload filtering across processing workflows.",
+          "Architected a headless CMS layer powering content pipelines with pre-signed URL media delivery, optimized document rendering, and structured content management.",
+          "Built CI/CD pipelines across dev, staging, and production environments using GitHub Actions and SSH-based deployment automation, reducing release cycles by 50%.",
+          "Hardened platform security posture with Redis-backed honeypot monitoring, non-root container execution, and strict filesystem permission policies — reducing unauthorized access attempts by 60%.",
+          "Integrated resilient payment workflows with Stripe and Paystack using idempotency protections and cryptographic webhook validation, achieving 99.9% transaction reliability.",
+          "Developed a compliance gap analysis dashboard with responsive data visualization for tracking regulatory requirements across health-tech operations."
+        ]
+      },
+      {
+        "name": "Jethro Ltd",
+        "position": "Frontend Engineer",
+        "url": "",
+        "startDate": "2024-08-01",
+        "endDate": "2025-07-31",
+        "summary": "Led frontend development for PayCollect and DocStream — fintech products handling payment collection workflows and document processing pipelines for business-critical operations.",
+        "highlights": [
+          "Led frontend development for fintech platforms handling payment collection and document processing, delivering production-grade interfaces supporting multi-stakeholder financial workflows.",
+          "Built the PayCollect dashboard with role-based views for payment tracking, merchant onboarding, and transaction analytics with real-time data visualization.",
+          "Engineered secure authentication flows with JWT token management, auto-logout, and permission-based component rendering for sensitive financial applications.",
+          "Developed multi-channel document processing interfaces with rich editing capabilities and gateway management for HTTP, SMPP, and email delivery pipelines.",
+          "Implemented server-side pagination, schema-validated forms, and location-based merchant services with Google Maps integration."
+        ]
+      },
+      {
+        "name": "HNG Open Source Engineering Program",
+        "position": "Software Engineer",
+        "url": "telex.im",
+        "startDate": "2025-09",
+        "endDate": "2025-12",
+        "summary": "Selected as a two-time HNG finalist, contributing to Telex — a real-time communication platform — building high-concurrency microservices, RAG infrastructure, and cross-platform systems.",
+        "highlights": [
+          "Developed high-concurrency microservices in Rust (Axum, Tokio) handling authentication and payment workflows with async PostgreSQL connection pooling for production-grade throughput.",
+          "Built a RAG and semantic search service with vector database integration, enabling efficient document retrieval across thousands of documents with optimized text chunking for LLM context windows.",
+          "Engineered a cross-platform desktop application using Tauri 2 with Rust IPC commands and native system integration, delivering a lightweight alternative to Electron-based solutions.",
+          "Designed an N8N Node Executor service exposing a JSON-RPC 2.0 API for programmatic workflow execution via the Agent-to-Agent protocol.",
+          "Built AI agents using the Mastra framework to automate domain analysis and expiry tracking with structured output validation."
+        ]
+      },
+      {
+        "name": "PayRent Mobile App",
+        "position": "Fullstack Engineer (Contract)",
+        "url": "",
+        "startDate": "2025",
+        "endDate": "",
+        "summary": "Designed and built both backend API and cross-platform mobile app for PayRent, a multi-role real-estate investment and rent management platform.",
+        "highlights": [
+          "Designed and delivered a full-stack real-estate platform — cross-platform mobile app and backend API — supporting tenants, landlords, and property managers with role-based access control.",
+          "Architected the mobile application with persistent state management, role-based navigation, and responsive UI supporting complex investment and rent payment workflows across iOS and Android.",
+          "Built a multi-user marketplace API with real-time chat and notifications via WebSocket, role-based access control, and structured data isolation.",
+          "Implemented CI/CD pipelines with GitHub Actions and Docker, reducing deployment time by 50% across environments."
+        ]
+      },
+      {
+        "name": "Sparkly",
+        "position": "Backend Engineer (Remote)",
+        "url": "sparkly.so",
+        "startDate": "2024-09-01",
+        "endDate": "",
+        "summary": "",
+        "highlights": [
+          "Designed and built a multi-platform community management system with automated onboarding and moderation, increasing community engagement by 50%.",
+          "Implemented secure 2FA authentication with TOTP and JWT strategies for banking-grade account security.",
+          "Engineered global payment processing with Stripe and Flutterwave, implementing cryptographic webhook signature verification to prevent replay attacks and ensure transaction integrity.",
+          "Optimized high-traffic API endpoints with Redis caching, reducing database load by 40% under sustained concurrent workloads."
+        ]
+      },
+      {
+        "name": "HNG Open Source Engineering Program",
+        "position": "Backend Engineer",
+        "url": "",
+        "startDate": "2024-07-01",
+        "endDate": "2024-10-31",
+        "summary": "",
+        "highlights": [
+          "Architected a modular NestJS boilerplate adopted by 50+ developers, implementing standardized API response handling and granular role-based authorization guards.",
+          "Built high-performance Rust microservices (Axum, Tokio) with async database pooling for high-concurrency authentication workloads.",
+          "Developed real-time game backend with WebSocket-based state synchronization for multi-player interaction.",
+          "Standardized error handling and validation pipelines with custom decorators and DTOs, reducing runtime exceptions by 30%."
+        ]
+      },
+      {
+        "name": "Fitzzy Systems Limited",
+        "position": "Backend Engineer / Chief Technology Officer",
+        "url": "",
+        "startDate": "2023-03-01",
+        "endDate": "2024-03-01",
+        "summary": "Akure, Nigeria",
+        "highlights": [
+          "Led backend architecture and engineering team delivery, improving application responsiveness by 50% through system redesign and performance optimization.",
+          "Designed RESTful APIs serving millions of daily requests with Node.js, Express, and MongoDB across production infrastructure.",
+          "Introduced Docker and Kubernetes for container orchestration, improving release cycle velocity by 10% and standardizing deployment workflows.",
+          "Implemented authentication and authorization systems protecting user data across a multi-service architecture.",
+          "Conducted code reviews, mentored engineers, and facilitated knowledge-sharing sessions to grow team capability and delivery quality."
+        ]
+      },
+      {
+        "name": "Techivate Ltd",
+        "position": "Backend Engineer",
+        "url": "",
+        "startDate": "2023",
+        "endDate": "2023",
+        "summary": "Built the Techivate e-commerce platform for military and security agencies.",
+        "highlights": [
+          "Built a secure e-commerce platform serving military and security agencies, with session management and XSS mitigation for 10k+ daily users.",
+          "Integrated Stripe and Paystack payment flows, improving checkout completion rate by 30% with secure httpOnly cookie strategies.",
+          "Optimized server performance with AWS EC2 deployment and Redis session caching, reducing API latency by 50%.",
+          "Designed RESTful APIs with clear service boundaries and error handling protocols for reliable platform operations."
+        ]
+      },
+      {
+        "name": "OpenReplay",
+        "position": "Technical Writer (Remote)",
+        "url": "",
+        "startDate": "2023-01-01",
+        "endDate": "2023-12-31",
+        "summary": "Produced developer-focused technical content for an open-source session replay platform.",
+        "highlights": [
+          "Produced developer-focused technical content and implementation tutorials covering frontend architecture, APIs, and modern JavaScript ecosystems for an open-source developer tool.",
+          "Maintained documentation quality standards through thorough content reviews, interactive tutorials, and visual aids that improved developer onboarding experience."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "ALX – Holberton School",
+        "url": "",
+        "area": "Software Engineering",
+        "studyType": "Certificate",
+        "startDate": "2022-01-01",
+        "endDate": "2023-12-31",
+        "score": "",
+        "courses": []
+      },
+      {
+        "institution": "Federal University of Technology Akure",
+        "url": "",
+        "area": "Meteorology",
+        "studyType": "B. Tech",
+        "startDate": "2013-01-01",
+        "endDate": "2018-12-31",
+        "score": "",
+        "courses": []
+      }
+    ],
+    "skills": [
+      {
+        "name": "Languages",
+        "level": "Expert",
+        "keywords": ["TypeScript", "JavaScript", "Rust", "Python", "Go"]
+      },
+      {
+        "name": "Backend & APIs",
+        "level": "Expert",
+        "keywords": ["NestJS", "FastAPI", "Express", "Django", "Axum (Rust)", "GraphQL", "REST APIs", "WebSockets", "Socket.io", "Microservices"]
+      },
+      {
+        "name": "Frontend",
+        "level": "Expert",
+        "keywords": ["React", "Next.js", "Vite", "Redux Toolkit", "TanStack Query", "Tailwind CSS"]
+      },
+      {
+        "name": "Mobile & Desktop",
+        "level": "Expert",
+        "keywords": ["React Native (Expo)", "Tauri 2 (Rust)"]
+      },
+      {
+        "name": "Infrastructure & DevOps",
+        "level": "Expert",
+        "keywords": ["Docker", "Kubernetes", "GitHub Actions", "AWS (EC2, S3)", "Nginx", "Linux", "CI/CD"]
+      },
+      {
+        "name": "Databases & Messaging",
+        "level": "Expert",
+        "keywords": ["PostgreSQL", "Redis", "MongoDB", "ChromaDB", "BullMQ", "Prisma", "SQLx"]
+      },
+      {
+        "name": "Architecture & Engineering",
+        "level": "Expert",
+        "keywords": ["Distributed Systems", "AI Agents", "RAG Pipelines", "System Design", "Authentication & Security", "Performance Optimization", "Observability"]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Native or Bilingual"
+      },
+      {
+        "language": "Spanish",
+        "fluency": "Professional Working Proficiency"
+      }
+    ],
+    "certificates": [
+      {
+        "name": "2 Times HNG Finalist (Cohort 11 & 13)",
+        "date": "2024, 2025",
+        "issuer": "HNG"
+      },
+      {
+        "name": "ALX AI Career Essentials",
+        "date": "2023",
+        "issuer": "ALX"
+      },
+      {
+        "name": "ALX Certified Backend Engineer",
+        "date": "2023",
+        "issuer": "ALX"
+      }
+    ],
+    "publications": [
+      {
+        "name": "Building an AI-Powered Domain Expiry Checker: A Mastra.ai Deep Dive",
+        "publisher": "Mastra.ai (Official Blog)",
+        "releaseDate": "2025",
+        "url": "",
+        "summary": "Technical deep dive into building autonomous AI agents for domain tracking and analysis."
+      },
+      {
+        "name": "How to Save Yourself from Ransomware: A Quick Tip",
+        "publisher": "Medium",
+        "releaseDate": "2024",
+        "url": "https://medium.com/@idowuseyi22/how-to-save-yourself-from-ransomware-ransomware-shield-a-quick-tip-8fa0d2eb1005",
+        "summary": ""
+      },
+      {
+        "name": "Understanding API Like a Pro",
+        "publisher": "Dev.to",
+        "releaseDate": "2024",
+        "url": "https://dev.to/idowuseyi/understanding-api-like-a-pro-5cfo",
+        "summary": ""
+      }
+    ],
+    "projects": [
+      {
+        "name": "Vestly API",
+        "description": "Production-ready multi-tenant property management API with ownership credit tracking.",
+        "highlights": [
+          "Designed an immutable, append-only ownership credit ledger with strict organization-level data isolation and comprehensive input validation.",
+          "Implemented async job processing for property valuation snapshots, role-based access control across tenant/landlord/admin roles, and containerized deployment with full test coverage."
+        ],
+        "keywords": ["Express.js", "MongoDB", "BullMQ", "Redis", "TypeScript", "Zod", "Docker"],
+        "url": ""
+      },
+      {
+        "name": "FileNest",
+        "description": "Production-ready GraphQL API for file upload and management with real-time updates.",
+        "highlights": [
+          "Built a GraphQL API with JWT authentication, S3-compatible object storage, and real-time upload notifications via subscriptions.",
+          "Implemented metrics dashboard tracking upload statistics per user, file size validation, and containerized deployment."
+        ],
+        "keywords": ["NestJS", "GraphQL", "TypeORM", "PostgreSQL", "MinIO", "Apollo Server", "Docker"],
+        "url": ""
+      },
+      {
+        "name": "Domain-Master",
+        "description": "Autonomous AI agent for domain name analysis and expiration tracking.",
+        "highlights": [
+          "Engineered an autonomous AI agent with structured output validation and LLM-driven domain analysis.",
+          "Implemented intelligent fallback strategies for Whois data retrieval, ensuring 99% availability for domain metrics."
+        ],
+        "keywords": ["TypeScript", "AI Agents", "Mastra", "LLM", "Zod"],
+        "url": ""
+      },
+      {
+        "name": "HNG13 — RAG & Search Service",
+        "description": "High-performance Retrieval Augmented Generation service for document indexing and semantic search.",
+        "highlights": [
+          "Built a vector search pipeline enabling semantic retrieval over thousands of PDF documents with optimized embedding strategies.",
+          "Designed modular document processing with asynchronous embedding updates, ensuring zero-downtime search availability."
+        ],
+        "keywords": ["NestJS", "ChromaDB", "RAG", "Vector Database", "Microservices"],
+        "url": ""
+      },
+      {
+        "name": "NestJS-GraphQL Auth",
+        "description": "Secure authentication microservice built with GraphQL and Apollo Federation.",
+        "highlights": [
+          "Implemented a schema-first GraphQL API providing strongly-typed authentication mutations with custom authorization guards and JWT strategies."
+        ],
+        "keywords": ["GraphQL", "NestJS", "Apollo Server", "Passport-JWT"],
+        "url": ""
+      },
+      {
+        "name": "Lumestay",
+        "description": "Accommodation booking platform built with NestJS microservices architecture.",
+        "highlights": [
+          "Implemented authentication, booking, and payment services with inter-service communication and Stripe payment integration with webhook handling."
+        ],
+        "keywords": ["NestJS", "Microservices", "Stripe", "Redis", "TypeORM"],
+        "url": ""
+      },
+      {
+        "name": "Google Auth + Paystack (Rust)",
+        "description": "High-concurrency authentication and payment microservice built in Rust.",
+        "highlights": [
+          "Built Google OAuth and Paystack payment integration with async connection pooling and tracing/observability middleware for production monitoring."
+        ],
+        "keywords": ["Rust", "Axum", "Tokio", "SQLx", "PostgreSQL", "Paystack"],
+        "url": ""
+      }
+    ],
+    "interests": [
+      {
+        "name": "Open Source",
+        "keywords": ["HNG Internship Finalist – Team Starlight and Telex", "ALX C8 Community", "ALX Community Fellow", "NestJS Developer Community"]
+      }
+    ]
+  }
+]
